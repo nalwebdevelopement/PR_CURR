@@ -3,9 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useEffect } from 'react'
-import Header from './component/header'
+import Header from './component/Header'
 import CurrencyRow from './component/CurrencyRow'
-import Convert from './component/convert'
+import Convert from './component/Convert'
 const BASE_URL =  "https://v6.exchangerate-api.com/v6/9bb6af9629d4dc00b91c5153/latest/USD"
 
 function App() {
