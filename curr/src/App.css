@@ -1,3 +1,7 @@
+*
+{
+  margin:0;
+}
 body{
   margin: 0;
   display:flex;
@@ -12,20 +16,25 @@ body{
 
 }
 .input{
+  display: inline-block;
   width: 250px;
   height:40px;
   padding: 2px;
   margin: 5px;
-  border: 2px solid #333;
+  
+  border: 1px solid #ccc;
   border-radius: .5rem;
   font-size:2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
 select
 {
-  width: 100px;
-  height: 40px;
-  font-size:2rem;
+
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
 }
 .equals
 {
