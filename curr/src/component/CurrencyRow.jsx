@@ -18,7 +18,7 @@ function CurrencyRow({currOption1,selectedCurrency, getSelectedValue, value,getA
   return (
     <div>
 
-
+     
       <input className="input"
       type="text"
       name="amt"
@@ -32,7 +32,7 @@ function CurrencyRow({currOption1,selectedCurrency, getSelectedValue, value,getA
       ))}
       
     </select>
-     
+    
     </div>
   )
 }

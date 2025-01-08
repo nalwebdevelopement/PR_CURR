@@ -72,6 +72,7 @@ function App() {
 
   return (
     <>
+    <div className="maincontainer">
      <Header />
      <CurrencyRow currOption1={currOption} 
      selectedCurrency={fromcurrency}
@@ -88,6 +89,7 @@ function App() {
       /> 
       
       <button name="convert1" onClick= {convertcurrency}> convert</button>
+      </div>
     </>
   )
 }
